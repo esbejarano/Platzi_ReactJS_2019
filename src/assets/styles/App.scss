@@ -1,5 +1,18 @@
+@import './Vars.scss';
 body {
     margin: 0;
-    background-color: rosybrown;
-    color: white;
+    font-family: $them-font;
+    background: $main-color;
 }
+  
+* {
+    box-sizing: border-box;
+}
+ 
+  ::placeholder {
+    color: white;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
